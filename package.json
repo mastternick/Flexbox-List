@@ -1,0 +1,28 @@
+{
+  "name": "mini_test_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./scss/style.scss ./css/styles.css",
+    "watch": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastternick/mini_test1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastternick/mini_test1/issues"
+  },
+  "homepage": "https://github.com/mastternick/mini_test1#readme",
+  "devDependencies": {
+    "sass": "^1.22.3"
+  },
+  "dependencies": {
+    "npm-watch": "^0.6.0"
+  }
+}

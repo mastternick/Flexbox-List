@@ -1,0 +1,48 @@
+body {
+  background-color: #121212;
+  color: #889999;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 94vh;
+  margin: 1% 8% 1% 8%;
+}
+
+@media (min-width: 500px) {
+  .container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    margin-top: -5%;
+    margin-bottom: 8%;
+  }
+}
+.container div {
+  padding: 35px 50px 15px 0px;
+  margin: 1%;
+}
+
+.box {
+  flex-basis: auto;
+  border-bottom: 2px solid #88999936;
+  flex: 1;
+}
+.box p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#happy {
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+
+/*# sourceMappingURL=style.css.map */
