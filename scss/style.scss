@@ -1,6 +1,5 @@
 body {
   background-color: #121212;
-  color: #889999;
   align-items: center;
 }
 
@@ -34,15 +33,12 @@ body {
 
 .box {
   flex-basis: auto;
-  border-bottom: 2px solid #88999936;
+  border-bottom: 2px solid #555a5a36;
   flex: 1;
   p {
     font-size: 18px;
+    color: #748282;
     font-weight: 500;
     font-family: sans-serif;
   }
-}
-
-#happy {
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
