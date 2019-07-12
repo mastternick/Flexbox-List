@@ -1,13 +1,13 @@
 body {
   background-color: #121212;
+  margin: 1% 8% 1% 8%;
 }
 
 .center {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 94vh;
-  margin: 1% 8% 1% 8%;
+  min-height: 96vh;
 }
 
 @media (min-width: 500px) {
@@ -24,7 +24,7 @@ body {
 .box {
   flex: 1;
   border-bottom: 2px solid #555a5a36;
-  padding: 35px 50px 15px 0px;
+  padding: 35px 0px 15px 0px;
   margin: 1%;
 }
 .box p {
