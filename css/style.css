@@ -1,6 +1,5 @@
 body {
   background-color: #121212;
-  align-items: center;
 }
 
 .center {
@@ -14,14 +13,12 @@ body {
 @media (min-width: 500px) {
   .container {
     display: flex;
-    align-items: stretch;
-    flex-direction: row;
   }
 }
 @media (max-width: 500px) {
   .container {
     margin-top: -5%;
-    margin-bottom: 8%;
+    margin-bottom: 1%;
   }
 }
 .container div {
@@ -30,7 +27,6 @@ body {
 }
 
 .box {
-  flex-basis: auto;
   border-bottom: 2px solid #555a5a36;
   flex: 1;
 }
