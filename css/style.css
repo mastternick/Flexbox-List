@@ -17,24 +17,25 @@ body {
 }
 @media (max-width: 500px) {
   .container {
-    margin-top: -5%;
-    margin-bottom: 1%;
+    margin-top: -6%;
   }
-}
-.container div {
-  padding: 35px 50px 15px 0px;
-  margin: 1%;
 }
 
 .box {
-  border-bottom: 2px solid #555a5a36;
   flex: 1;
+  border-bottom: 2px solid #555a5a36;
+  padding: 35px 50px 15px 0px;
+  margin: 1%;
 }
 .box p {
-  font-size: 18px;
   color: #748282;
+  font-size: 18px;
   font-weight: 500;
   font-family: sans-serif;
+}
+.box p:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
