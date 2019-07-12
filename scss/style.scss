@@ -1,3 +1,6 @@
+// Responsive values
+$mobile: 500px;
+
 body {
   background-color: #121212;
 }
@@ -10,22 +13,18 @@ body {
   margin: 1% 8% 1% 8%;
 }
 
-@media (min-width: 500px) {
-  .container {
+.container {
+  @media (min-width: $mobile) {
     display: flex;
   }
-}
-
-@media (max-width: 500px) {
-  .container {
+  @media (max-width: $mobile) {
     margin-top: -5%;
     margin-bottom: 1%;
   }
-}
-
-.container div {
-  padding: 35px 50px 15px 0px;
-  margin: 1%;
+  div {
+    padding: 35px 50px 15px 0px;
+    margin: 1%;
+  }
 }
 
 .box {
