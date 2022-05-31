@@ -1,0 +1,2 @@
+- name: Digital Ocean Deploy App
+  uses: jjst/action-digitalocean-deploy-app@v2
